@@ -44,7 +44,6 @@ const SimpleCards = () => {
                     <button onClick={goToProductDetail}>See More</button>
                     <button onClick={() => handleAddReview(product.id)}>Add Review</button>
                     <button onClick={() => navigateToReviews(product.id)}>See Reviews</button>
-                    {/* <button onClick={() => addToCart(product.id)}>Add to Cart</button> */}
                 </div>
             </div>
         );

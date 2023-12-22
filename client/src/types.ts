@@ -9,3 +9,10 @@ export type Shirts = {
     image: string;
     ratingAvg: number;
     };
+
+export type CartItem = {
+    shirtsId: string;
+    quantity: number;
+    size: string;
+    orderLinePrice: number;
+};

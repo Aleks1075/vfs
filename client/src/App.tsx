@@ -13,6 +13,9 @@ import AdminShirts from './pages/AdminShirts';
 import Account from './pages/Account';
 import ReviewForm from './pages/ReviewForm';
 import Reviews from './pages/Reviews';
+import Shop from './pages/Shop';
+import Checkout from './pages/CheckOut';
+import Confirmation from './pages/Confirmation';
 
 const httpLink = createHttpLink({
   uri: 'http://localhost:4000/graphql',
@@ -50,6 +53,9 @@ function App() {
           <Route path="/account" element={<Account />} />
           <Route path="/reviews/:id" element={<Reviews />} />
           <Route path="/reviews-form/:shirtId" element={<ReviewForm />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/confirmation" element={<Confirmation />} />
         </Routes>
       </div>
       <Footer />

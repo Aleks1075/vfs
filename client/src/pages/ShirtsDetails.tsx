@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useApolloClient } from '@apollo/client';
 import { GET_SHIRT_BY_ID } from '../queries/GetShirtById';
-import { Shirts } from '../types'; // Make sure this type aligns with your GraphQL schema
+import { Shirts } from '../types';
 
 const ShirtsDetails = () => {
     const { id } = useParams<{ id: string }>();

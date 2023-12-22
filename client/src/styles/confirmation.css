@@ -1,0 +1,22 @@
+.confirmation-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.confirmation-message {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.home-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}

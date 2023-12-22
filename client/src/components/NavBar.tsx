@@ -29,6 +29,7 @@ const NavBar = () => {
             <Link to="/shirts" className={navItem === 'SHIRTS' ? 'active' : ''}>SHIRTS</Link>
             <Link to="/account" className={navItem === 'ACCOUNT' ? 'active' : ''}>ACCOUNT</Link>
             {userRole === 'admin' && ( <Link to="/admin-shirts" className={navItem === 'PRODUCTS' ? 'active' : ''}>PRODUCTS</Link>)}
+            {userRole === 'customer' && ( <Link to="/shop" className={navItem === 'SHOP' ? 'active' : ''}>SHOP</Link>)}
             <button onClick={handleLogout}>LogOut</button>
           </>
         ) : (

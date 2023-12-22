@@ -19,9 +19,8 @@ export const useNavItem = () => {
       case '/register':
         setNavItem('REGISTER');
         break;
-      // Add other cases as needed
       default:
-        setNavItem('HOME'); // or 'DEFAULT' or any other default case you prefer
+        setNavItem('HOME');
     }
   }, [location.pathname]);
 
