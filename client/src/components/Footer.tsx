@@ -22,14 +22,6 @@ const Footer = () => {
             </p>
           </div>
           <div className="footer-section">
-            <h4>Quick Links</h4>
-            <ul>
-              <a href="/">Home</a><br/>
-              <a href="/shirt">Shirts</a>
-              
-            </ul>
-          </div>
-          <div className="footer-section">
             <h4>Contact Us</h4>
             <p>Email: vintagefootballshirts@hotmail.com</p>
       
