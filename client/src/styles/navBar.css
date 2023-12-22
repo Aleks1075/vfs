@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #095934;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0; /* Adjust padding to match the footer */
+    width: 100%; /* Full width */
+  }
+  
+  .navbar-brand img {
+    height: 100px; /* Increase logo size as needed */
+    /* move logo to the right */
+    margin-left: 50px;
+  }
+  
+  .navbar-menu {
+    display: flex;
+  }
+  
+  .navbar-menu a {
+    color: white; /* White text for all nav items */
+    text-decoration: none;
+    padding: 0.5em 1em; /* Add some padding around the links */
+    font-weight: bold; /* Make the text bold */
+  }
+  
+  .navbar-menu a.active {
+    border-bottom: 2px solid white; /* White underline for the active item */
+    /* Alternatively, you could use a different background color for the active link:
+    background-color: #0b7a43; Lighter green background for active item */
+  }
+  
+  /* You can add a hover effect for the links */
+  .navbar-menu a:hover {
+    opacity: 0.7;
+  }
